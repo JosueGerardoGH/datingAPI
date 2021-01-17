@@ -10,13 +10,10 @@ namespace API.Entities
         public int Id { get; set; }
         public string UserName { get; set; }
 
-        /* private int myVar;
+        public byte[] PasswordHash { get; set; }
 
-         public int MyProperty
-         {
-             get { return myVar; }
-             set { myVar = value; }
-         }*/
+        public byte[] PasswordSalt { get; set; }
+
 
     }
 }
